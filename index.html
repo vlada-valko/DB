@@ -37,7 +37,7 @@
     <script>
         // Функція для отримання даних з файлу JSON і відображення їх на сторінці
         function fetchData() {
-            fetch('customers_202403211604.json')
+            fetch('https://github.com/vlada-valko/DB/blob/d690a41290cd6ec403c935957a67fb9cc87df159/customers_202403211604.json')
                 .then(response => response.json())
                 .then(data => displayCustomerNames(data))
                 .catch(error => console.error('Error:', error));
